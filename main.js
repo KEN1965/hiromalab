@@ -1,5 +1,7 @@
-import { bootstrapCameraKit, createMediaStreamSource } 
-  from "https://cdn.jsdelivr.net/npm/@snap/camera-kit@latest";
+import CameraKit from "https://cdn.jsdelivr.net/npm/@snap/camera-kit@latest/dist/camera-kit.esm.js";
+
+const { bootstrapCameraKit, createMediaStreamSource } = CameraKit;
+
 
 import { Settings } from "./settings.js";
 
